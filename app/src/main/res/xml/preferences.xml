@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/main_background"
+        android:title="Game Background"
+        android:entries="@array/sport_names"
+        android:entryValues="@array/sport_pics"
+        android:defaultValue="Soccer"
+        android:summary="Choose a background image for the game">
+
+    </ListPreference>
+
+    <ListPreference
+        android:key="@string/winner_background"
+        android:title="Winner Screen Background"
+        android:entries="@array/trophy_names"
+        android:entryValues="@array/trophy_pics"
+        android:defaultValue="fireworks"
+        android:summary="Choose the background trophy image for the winning screen">
+
+    </ListPreference>
+
+    <EditTextPreference
+        android:key="@string/text_name"
+        android:title="Change your team name for team A">
+
+    </EditTextPreference>
+
+    <EditTextPreference
+        android:key="@string/text_name2"
+        android:title="Change your team name for team B">
+
+    </EditTextPreference>
+
+</PreferenceScreen>

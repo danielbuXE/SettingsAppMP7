@@ -1,0 +1,60 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+
+        <item>Reply</item>
+
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+
+        <item>reply</item>
+
+        <item>reply_all</item>
+
+    </string-array>
+
+    <string-array name="sport_names">
+
+        <item>Soccer</item>
+
+        <item>Baseball</item>
+
+        <item>Basketball</item>
+
+    </string-array>
+
+    <string-array name="sport_pics">
+
+        <item>Soccer</item>
+
+        <item>Baseball</item>
+
+        <item>Basketball</item>
+
+    </string-array>
+    <string-array name="trophy_names">
+
+        <item>Fireworks</item>
+
+        <item>Medal</item>
+
+        <item>Cup</item>
+
+        <item>Thumbs up</item>
+
+    </string-array>
+
+    <string-array name="trophy_pics">
+
+        <item>fireworks</item>
+
+        <item>medal</item>
+
+        <item>cup</item>
+
+        <item>thumbs up</item>
+
+    </string-array>
+</resources>
